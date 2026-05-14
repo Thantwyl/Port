@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --color-accent: #000000;
+  --color-accent-dark: #FFFFFF;
+  --color-text-primary: #000000;
+  --color-text-secondary: #4B5563;
+  --color-border: rgba(0, 0, 0, 0.1);
+  --color-bg-primary: #FFFFFF;
+  --color-bg-surface: #F9FAFB;
+}
+
+:root {
+  --bg-primary: #FFFFFF;
+  --bg-surface: #F9FAFB;
+  --text-primary: #000000;
+  --text-secondary: #4B5563;
+  --border-primary: rgba(0, 0, 0, 0.1);
+  --frame-color: rgba(0, 0, 0, 0.05);
+}
+
+.dark {
+  --bg-primary: #000000;
+  --bg-surface: #0A0A0A;
+  --text-primary: #FFFFFF;
+  --text-secondary: #9CA3AF;
+  --border-primary: rgba(255, 255, 255, 0.1);
+  --frame-color: rgba(255, 255, 255, 0.05);
+}
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    @apply transition-colors duration-500 min-h-screen relative;
+  }
+
+  /* Background Frame */
+  body::before {
+    content: '';
+    @apply fixed inset-4 border border-[var(--frame-color)] pointer-events-none z-50;
+  }
+  
+  body.hide-default-cursor,
+  body.hide-default-cursor * {
+    cursor: none !important;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply uppercase tracking-tight;
+  }
+}
+
+@layer components {
+  .cinematic-text {
+    @apply uppercase tracking-[0.2em] font-medium;
+  }
+
+  .section-heading {
+    @apply text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-8 uppercase tracking-tighter leading-none;
+  }
+
+  .text-outline {
+    -webkit-text-stroke: 1px var(--text-primary);
+    color: transparent;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[var(--color-text-primary)] to-[var(--color-text-secondary)];
+  }
+}
+
+/* Custom transitions */
+.theme-transition {
+  transition: background-color 0.4s ease, color 0.3s ease, border-color 0.3s ease;
+}
