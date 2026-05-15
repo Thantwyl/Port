@@ -71,7 +71,7 @@ const Navbar = () => {
           transition={{ duration: 0.5, ease: "easeInOut" }}
         />
 
-        <div className={`max-w-7xl mx-auto px-6 sm:px-12 flex justify-between items-center transition-all duration-500 ${scrolled || isOpen ? 'py-4' : 'py-5 lg:py-10'}`}>
+        <div className={`max-w-7xl mx-auto px-4 sm:px-6 md:px-12 flex justify-between items-center transition-all duration-500 ${scrolled || isOpen ? 'py-4' : 'py-5 lg:py-10'}`}>
           <Link
             to="/"
             onClick={handleLogoClick}
@@ -155,14 +155,6 @@ const Navbar = () => {
                       </Link>
                     </motion.div>
                   ))}
-                </div>
-
-                <div className="mt-6 pt-6 border-t border-[var(--border-primary)] flex justify-between items-center">
-                  <div className="flex flex-col gap-1">
-                    <p className="text-[9px] cinematic-text text-orange-500 uppercase tracking-[0.2em] opacity-80">Connection Status</p>
-                    <p className="text-[10px] font-medium tracking-tighter opacity-50 uppercase">Port_8080 // Established</p>
-                  </div>
-                  <div className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse shadow-[0_0_8px_rgba(34,197,94,0.4)]" />
                 </div>
               </div>
             </motion.div>

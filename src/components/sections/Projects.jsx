@@ -7,7 +7,7 @@ const Projects = ({ isHomePage = false, maxProjects = null }) => {
   const displayProjects = maxProjects ? projectsData.slice(0, maxProjects) : projectsData;
   
   return (
-    <section className={`relative ${isHomePage ? 'py-16 sm:py-24' : 'py-32 sm:py-48'} px-6 bg-[var(--bg-primary)]`}>
+    <section className={`relative ${isHomePage ? 'py-16 sm:py-24' : 'py-32 sm:py-48'} px-4 sm:px-6 md:px-12 bg-[var(--bg-primary)]`}>
       <div className="max-w-7xl mx-auto">
         <span className="cinematic-text text-xs text-[var(--text-secondary)] mb-4 block">// Operations Log</span>
         <div className={`mb-24 flex flex-col md:flex-row justify-between items-start md:items-end gap-10 ${isHomePage ? 'mb-16' : 'mb-24'}`}>

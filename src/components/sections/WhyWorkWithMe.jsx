@@ -22,12 +22,12 @@ const WhyWorkWithMe = () => {
   ];
 
   return (
-    <section className="relative py-16 sm:py-24 px-6 bg-[var(--bg-primary)]">
+    <section className="relative py-16 sm:py-24 px-4 sm:px-6 md:px-12 bg-[var(--bg-primary)]">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <span className="cinematic-text text-xs text-[var(--text-secondary)] mb-6 block">// Why Work With Me</span>
           <h2 className="section-heading">Strategic <span className="text-orange-500">Partnership</span></h2>
-          <p className="text-xl text-[var(--text-secondary)] font-light max-w-3xl mx-auto mt-8">
+          <p className="text-base sm:text-lg md:text-xl text-[var(--text-secondary)] font-light max-w-3xl mx-auto mt-8">
             Let's build something extraordinary together. I bring technical expertise, creative vision, and a commitment to excellence that transforms ideas into impactful digital experiences.
           </p>
         </div>
@@ -36,14 +36,14 @@ const WhyWorkWithMe = () => {
           {reasons.map((reason, index) => (
             <div key={index} className="group border border-[var(--border-primary)] p-8 hover:border-[var(--text-primary)] transition-all duration-500">
               <div className="w-2 h-2 bg-[var(--text-primary)] group-hover:scale-150 transition-transform duration-500 mb-6" />
-              <h3 className="text-lg font-bold text-orange-500 mb-4">{reason.title}</h3>
+              <h3 className="text-base sm:text-lg font-bold text-orange-500 mb-4">{reason.title}</h3>
               <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{reason.description}</p>
             </div>
           ))}
         </div>
 
         <div className="text-center">
-          <p className="text-lg text-[var(--text-secondary)] font-light mb-12 mx-auto whitespace-nowrap">
+          <p className="text-sm sm:text-base md:text-lg text-[var(--text-secondary)] font-light mb-12 mx-auto max-w-2xl leading-relaxed">
             Ready to start your next project? Let's discuss how we can bring your vision to life.
           </p>
         </div>

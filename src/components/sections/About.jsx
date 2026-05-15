@@ -4,7 +4,7 @@ import Button from '../ui/Button.jsx';
 
 const About = ({ isHomePage = false }) => {
   return (
-    <section className={`relative ${isHomePage ? 'py-16 sm:py-24 px-6' : 'py-32 sm:py-48 px-6'} bg-[var(--bg-surface)]`}>
+    <section className={`relative ${isHomePage ? 'py-16 sm:py-24 px-4 sm:px-6 md:px-12' : 'py-32 sm:py-48 px-4 sm:px-6 md:px-12'} bg-[var(--bg-surface)]`}>
       <div className="max-w-7xl mx-auto">
         {/* Profile Image and Bio Side by Side */}
         <div className={`grid lg:grid-cols-2 ${isHomePage ? 'gap-16 items-center mb-16' : 'gap-24 items-center mb-24'}`}>
@@ -23,7 +23,7 @@ const About = ({ isHomePage = false }) => {
             <span className="cinematic-text text-xs text-[var(--text-secondary)] mb-6 block">// Profile Overview</span>
             <h2 className="section-heading">Architecting <span className="text-orange-500">Digital</span> Experiences</h2>
             
-            <p className="text-xl text-[var(--text-secondary)] font-light leading-relaxed mb-8">
+            <p className="text-base sm:text-lg md:text-xl text-[var(--text-secondary)] font-light leading-relaxed mb-8">
               {profile.bio}
             </p>
             
