@@ -30,7 +30,7 @@ const About = ({ isHomePage = false }) => {
             {/* CV Download Button & Social Links - Only show on full about page */}
             {!isHomePage && (
               <div className="mb-12 flex items-center gap-6">
-                <Button href="/cv.pdf" download="Thantwyl_resume.pdf" variant="outline">
+                <Button href="/Resume.pdf" download="Thantwyl_resume.pdf" variant="outline">
                   Download Resume
                 </Button>
                 <div className="flex items-center gap-5 border-l border-[var(--border-primary)] pl-6">

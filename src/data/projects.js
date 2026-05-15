@@ -31,8 +31,8 @@ const projects = [
   },
   {
     id: 4,
-    title: "Portfolio GIFT for GF",
-    description: "Cinematic portfolio experience utilizing advanced motion design and technical typography.",
+    title: "Portfolio GIFT",
+    description: "Developed a cinematic-style portfolio website featuring advanced motion design, interactive UI effects, and modern typography. Built responsive frontend experiences with smooth animations and implemented an admin panel with secure authentication using Firebase Authentication and Firebase. Integrated Cloudinary for image storage and media URL management, with data synchronization stored in Firebase.",
     tech: ["Javascript"],
     image: "/images/gfpf.png",
     live: "https://shunn-portfolio.vercel.app/",
