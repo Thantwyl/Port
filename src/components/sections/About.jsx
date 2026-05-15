@@ -44,9 +44,11 @@ const About = ({ isHomePage = false }) => {
                       <Linkedin size={20} />
                     </a>
                   )}
-                  <a href="mailto:hello@example.com" className="text-[var(--text-secondary)] hover:text-orange-500 transition-colors">
-                    <Mail size={20} />
-                  </a>
+                  {profile.social?.email && (
+                    <a href={`mailto:${profile.social.email}`} className="text-[var(--text-secondary)] hover:text-orange-500 transition-colors">
+                      <Mail size={20} />
+                    </a>
+                  )}
                 </div>
               </div>
             )}

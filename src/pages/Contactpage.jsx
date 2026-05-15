@@ -23,12 +23,18 @@ const Contactpage = () => {
           <h2 className="cinematic-text text-sm mb-8">// Contact Information</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <span className="cinematic-text text-xs text-[var(--text-secondary)]">// Location</span>
-              <p className="text-sm mt-2 text-[var(--text-primary)]">{profile.location}</p>
+              <div className="mb-8">
+                <span className="cinematic-text text-xs text-[var(--text-secondary)]">// Email</span>
+                <p className="text-base md:text-lg mt-2 text-[var(--text-primary)] font-medium">{profile.social?.email}</p>
+              </div>
+              <div>
+                <span className="cinematic-text text-xs text-[var(--text-secondary)]">// Location</span>
+                <p className="text-base md:text-lg mt-2 text-[var(--text-primary)] font-medium">{profile.location}</p>
+              </div>
             </div>
             <div>
               <span className="cinematic-text text-xs text-[var(--text-secondary)]">// Phone</span>
-              <p className="text-sm mt-2 text-[var(--text-primary)]">{profile.phone}</p>
+              <p className="text-base md:text-lg mt-2 text-[var(--text-primary)] font-medium">{profile.phone}</p>
             </div>
           </div>
         </div>
