@@ -1,0 +1,6 @@
+.git
+.gitignore
+README.md
+.env.example
+src/**/*.test.js
+src/**/*.spec.js
