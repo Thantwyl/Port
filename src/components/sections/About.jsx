@@ -12,17 +12,16 @@ const About = ({ isHomePage = false }) => {
             <img 
               src={profile.avatar} 
               alt="Profile" 
-              className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105"
+              className="w-full h-full object-cover md:grayscale transition-all duration-700 md:group-hover:grayscale-0 md:group-hover:scale-105"
             />
             <div className="absolute top-8 left-8">
-              <span className="text-[10px] cinematic-text bg-[var(--bg-primary)]/80 backdrop-blur-sm px-3 py-1 border border-[var(--border-primary)] text-[var(--text-primary)]">System Admin</span>
+              <span className="text-[10px] cinematic-text bg-[var(--bg-primary)]/80 backdrop-blur-sm px-3 py-1 border border-[var(--border-primary)] text-[var(--text-primary)]">Thantwaiyan Linn</span>
             </div>
           </div>
           
           <div>
             <span className="cinematic-text text-xs text-[var(--text-secondary)] mb-6 block">// Profile Overview</span>
-            <h2 className="section-heading">Architecting <span className="text-orange-500">Digital</span> Experiences</h2>
-            
+            <h2 className="section-heading">Architecting <span className="text-orange-500">Digital</span> Experiences</h2>        
             <p className="text-base sm:text-lg md:text-xl text-[var(--text-secondary)] font-light leading-relaxed mb-8">
               {profile.bio}
             </p>
@@ -101,6 +100,7 @@ const About = ({ isHomePage = false }) => {
                       <span className="text-xs text-[var(--text-secondary)] cinematic-text">{edu.period}</span>
                     </div>
                     <p className="text-sm text-[var(--text-secondary)] font-medium mb-2">{edu.institution}</p>
+                    <p className="text-sm text-[var(--text-secondary)] font-medium mb-2">{edu.grade}</p>
                     <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{edu.description}</p>
                   </div>
                 ))}

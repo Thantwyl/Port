@@ -1,5 +1,5 @@
 const profile = {
-  name: "Thantwyl",
+  name: "ThantWaiYan Linn",
   title: "Backend Developer // Data Engineer // Data Science Enthusiast",
   tagline: "BUILDING THE FUTURE OF DIGITAL INFRASTRUCTURE.",
   bio: "I am a Junior Backend Developer with hands-on experience building backend systems for web and mobile applications. Skilled in FastAPI, Django, and PostgreSQL, I work on APIs, databases, authentication, security, and server-side logic.",
@@ -21,13 +21,14 @@ const profile = {
       title: "Civil Master Solution",
       role: "Backend Developer Co-op",
       period: "2025 Aug - 2026 Jan",
-      description: "A production web application built for a real company project with backend development and deployment support."
+      description: "A production web application built for a real company project with backend development and deployment."
     }
   ],
   education: [
     {
       degree: "B.Sc. Information and Communication Technology",
       institution: "Rangsit University - Thailand",
+      grade: "First-class Honors",
       period: "2022 - 2026",
       description: "Focused on software engineering, algorithms, and web technologies."
     }
