@@ -1,10 +1,10 @@
 const profile = {
   name: "ThantWaiYan Linn",
-  title: "Backend Developer // Data Engineer // Data Science Enthusiast",
+  title: "Backend Developer // Junior Software Engineer // Junior Business Analyst",
   tagline: "BUILDING THE FUTURE OF DIGITAL INFRASTRUCTURE.",
   bio: "I am a Junior Backend Developer with hands-on experience building backend systems for web and mobile applications. Skilled in FastAPI, Django, and PostgreSQL, I work on APIs, databases, authentication, security, and server-side logic.",
-  location: "BANGKOK, THAILAND // REMOTE",
-  phone: "+66 96-765-5893",
+  location: "YANGON, MYANMAR // REMOTE",
+  phone: "+95 9781 059 698",
   focus: "AI & AUTOMATION // DATA SCIENCE // BACKEND ENGINEERING",
   avatar: "images/profile.jpg",
   social: {
@@ -13,8 +13,8 @@ const profile = {
     email: "twaiyy27@gmail.com"
   },
   skills: [
-    "Python", "Django", "FastAPI", "PostgreSQL", "MySQL", "MongoDB", "Firebase", "Supabase", 
-    "Javascript", "React","HTML", "Tailwind CSS" ,"Docker", "Git & GitHub", "Cloudinary", "Render"
+    "Python", "Django", "FastAPI", "PostgreSQL", "MySQL", "MongoDB", "Firebase", 
+    "Javascript", "React"," Node.js + Express","HTML", "Tailwind CSS" ,"Docker", "Git & GitHub", "Cloudinary", "Render",
   ],
   experience: [
     {
