@@ -14,7 +14,7 @@ const profile = {
   },
   skills: [
     "Python", "Django", "FastAPI", "PostgreSQL", "MySQL", "MongoDB", "Firebase", 
-    "Javascript", "React"," Node.js + Express","HTML", "Tailwind CSS" ,"Docker", "Git & GitHub", "Cloudinary", "Render",
+    "Javascript", "React"," Node.js Express","HTML", "Tailwind CSS" ,"Docker", "Git & GitHub", "Cloudinary", "Render",
   ],
   experience: [
     {
@@ -30,7 +30,7 @@ const profile = {
       institution: "Rangsit University - Thailand",
       grade: "First-class Honors",
       period: "2022 - 2026",
-      description: "Focused on software engineering, algorithms, and web technologies."
+      description: "Focused on software engineering, algorithms, web technologies, database design, and analyst."
     }
   ]
 };
