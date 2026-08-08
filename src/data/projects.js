@@ -38,6 +38,15 @@ const projects = [
     live: "https://shunn-portfolio.vercel.app/",
     github: "https://github.com/Thantwyl/Gift_for_gf",
     status: "Deployed"
+  },
+  {
+    id: 5,
+    title: "Unity / Dimension Traveller",
+    description: "Developed using Unity and Unity Asset Store assets for an academic final project, Dimension Traveler is a 3D sci-fi action-adventure game featuring custom map designs, interactive puzzle mechanics, combat systems, and multi-level progression across alien dimensions.",
+    tech: ["Unity"],
+    image: "/images/unity dt.png",
+    live: "https://www.youtube.com/watch?v=lvm6PSKcmOs",
+    status: "Not Deployed"
   }
 ];
 

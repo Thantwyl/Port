@@ -14,7 +14,7 @@ const profile = {
   },
   skills: [
     "Python", "Django", "FastAPI", "PostgreSQL", "MySQL", "MongoDB", "Firebase", 
-    "Javascript", "React"," Node.js Express","HTML", "Tailwind CSS" ,"Docker", "Git & GitHub", "Cloudinary", "Render",
+    "Javascript", "React"," Node.js Express","HTML", "Tailwind CSS" ,"Docker", "Git & GitHub", "Cloudinary", "Render", "Vercel", "Netlify", "Unity"
   ],
   experience: [
     {
